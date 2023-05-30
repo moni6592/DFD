@@ -9,6 +9,14 @@ header {
   font-family: "articulat-heavy-cf", sans-serif;
   font-weight: 900;
   font-style: normal;
+}
+.ex {
+  padding-right: 3vw;
+  padding-left: 3vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+.hero {
   background-image: url(https://images.pexels.com/photos/7233100/pexels-photo-7233100.jpeg);
   border-radius: 3vw;
   background-size: cover;
@@ -23,6 +31,43 @@ h1 {
   font-family: "articulat-heavy-cf", sans-serif;
   font-weight: 900;
   font-style: normal;
+}
+h2 {
+  font-size: 3.052rem;
+  font-family: "articulat-cf", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.breadcrumbs {
+  font-size: 0.8rem;
+}
+.exmain > .exsec {
+  display: grid;
+  grid-template-columns: 70vw;
+  justify-content: center;
+  row-gap: 3vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+.exmain > .exsec > img,
+.ex2main > img {
+  max-width: 40vw;
+  border-radius: 3vw;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 #7a9286;
+  text-align: center;
+}
+.ex2main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3vw;
+  column-gap: 3vw;
+}
+
+.exmain > .exsec > div > p {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  text-align: center;
 }
 h4 {
   font-size: 1.953rem;
